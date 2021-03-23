@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset= "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content= "If-edge">
+        <meta name = "viewpoint" content="width=device-width, initial-scale=1.0">
+        <title> Document </title>
+        <link rel="stylesheet" href = "checkout.css">
+        <script src= "checkout.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+
+Checkout Total: $<p id= "totalCheck"></p>
+<!--
+<script> document.getElementById("p1").addEventListener("click", getTotal())
+document.getElementById("p2").addEventListener("click",getTotal())
+document.getElementById("p3").addEventListener("click",getTotal())
+ </script>
+ --> <!--making it so when and add button is made event listener changes the cart value as well-->
+
+<section class="pricing py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Free Tier -->
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Hats</h5>
+              <!--<h6 class="card-price text-center">$0<span class="period">/month</span></h6>-->
+              <hr>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>$10</li>
+                <li id= p1Count>0</li> in Cart
+              </ul>
+              <button id = "p1" class="btn btn-block btn-primary text-uppercase" onclick="addProduct(10)">ADD</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <!-- Free Tier -->
+              <div class="col-lg-4">
+                <div class="card mb-5 mb-lg-0">
+                  <div class="card-body">
+                    <h5 class="card-title text-muted text-uppercase text-center">Shirts</h5>
+                    <!--<h6 class="card-price text-center">$0<span class="period">/month</span></h6>-->
+                    <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-check"></i></span>$20</li>
+                      <li id= p2Count>0</li> in Cart
+                    </ul>
+                    <button id = "p1" class="btn btn-block btn-primary text-uppercase" value = "ADD" onclick="addProduct(20)">ADD</button>
+                  </div>
+                </div>
+              </div>
+            
+                  <div class="container">
+      <div class="row">
+        <!-- Free Tier -->
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Pants</h5>
+              <!--<h6 class="card-price text-center">$0<span class="period">/month</span></h6>-->
+              <hr>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>$30</li>
+                <li id= p3Count>0</li> in Cart
+              </ul>
+              <button id = "p1" class="btn btn-block btn-primary text-uppercase" value = "ADD" onclick="addProduct(30)">ADD</button>
+            </div>
+          </div>
+        </div>
+
+        <a href ="dummy URL" type= button id = "p1" class="btn btn-block btn-primary text-uppercase" value = "ADD" onclick="addProduct(30)">Checkout</button>
+
+    </section>

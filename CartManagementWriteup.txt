@@ -1,0 +1,19 @@
+https://github.com/bmuldoon5/1973309_BenMuldoon_TCSCartManagement.git
+
+Used to typescript to do most of the work
+
+Added a lot of document.getElementById.innerHTML in order to post my values around the HTML page
+
+Added everything in local storage to get on my checkout page
+-used dummy link because I do not think it will send correctly
+
+getElementById.innerHTML allowed it to update on its own
+
+needed to put JSON for localStorage bc needs to be string to read
+
+used bootstrap to make some of the looks 
+
+
+Pretty much just added up product 1,2,3 and total into their own variables so they are easiler stored into the storage and retreived.
+
+
